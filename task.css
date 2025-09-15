@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.main-container{
+    width: 900px;
+    height: 530px;
+    border: 2px solid;
+    margin: 30px;
+   
+}
+.first-images-container,.second-images-container{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid;
+    margin: 30px;
+}
+img{
+    height: 190px;
+    width: 190px;
+    border-radius: 100%;
+    padding: 10px;
+
+
+}
+.image-container{
+    position: relative;
+    
+}
+.image-container p{
+    position: absolute;
+    top:90px;
+    left: 50px;
+    color: aliceblue;
+}
